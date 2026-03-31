@@ -1,4 +1,9 @@
 {
-    "name": "C++ Environment",
-    "image": "://microsoft.com"
+    "name": "C++ Setup",
+    "image": "://microsoft.com",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "installZsh": true
+        }
+    }
 }
